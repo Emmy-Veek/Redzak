@@ -1,0 +1,15 @@
+p, h1, h2, h3, h4, h5, h6{
+    font-family: "Maven Pro", sans-serif;
+    line-height: 1.8;
+}
+.row h4{
+    font-family: 'Open Sans';
+}
+.pic{
+    background-image: url('Resources/reform.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 400px;
+}

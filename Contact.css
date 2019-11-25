@@ -1,0 +1,118 @@
+p, h1, h2, h3, h4, h5, h6{
+    font-family: "Maven Pro", sans-serif;
+    line-height: 1.8;
+    color: #183C6B;
+}
+p{
+    font-size: 13pt;
+}
+.top{
+    background-image: url('Resources/1-wtc-backsplash-ceiling-lamp-1439710.jpg');
+    color: #ffd700;
+    background-attachment: fixed;
+}
+.top .col-12{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro';
+    width: 100%;
+    height: 100vh;
+}
+.form{
+    margin-top: 30px;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+}
+.mail{
+    padding-top: 6px;
+}
+.icns{
+    padding-top: 15px;
+}
+.icns .col-2 img:hover{
+    width: 50px;
+    height: 50px;
+    transition: ease-in-out .5s;
+}
+h2{
+    color: #183C6B;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    margin-top: 150px;
+}
+.input-field{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+.input-field input, .input-field textarea{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgb(235, 235, 235);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    resize: none;
+}
+.input-field label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    pointer-events: none;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 0.644);
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.input-field input:focus + label,
+.input-field textarea:focus + label,
+.input-field input:valid + label,
+.input-field textarea:valid + label
+{
+    top: -25px;
+    font-size: 14px;
+    padding: 2px 5px;
+    background: #6b3aff;
+    color: #fff;
+    border-radius: 4px;
+}
+form button{
+    border-radius: 5px;
+}
+button{
+    border: none;
+    background: #f26938;
+    color: #fff;
+    padding: 5px 20px;
+    outline: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .5s;
+    float: right;
+}
+button:hover{
+    background: #6b3aff;
+}
+.foot{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    background-attachment: fixed;
+    background-image: url("Resources/Base-3.png");
+}

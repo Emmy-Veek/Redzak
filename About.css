@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+.top{
+    background-image: url('Resources/apartment-architectural-design-architecture-323780.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.vision{
+    position: absolute;
+    top: 60%;
+    font-size: 14px;
+    width: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    background:  rgba(0, 153, 187, 0.822);
+    border-radius: 10px;
+    color: #0C0A3E;
+}
+.spc{
+    height: 100px;
+}
+.how{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    background-attachment: fixed;
+    background-image: url("Resources/Base-3.png");
+}
+.cond h6{
+    text-decoration: underline;
+}
+.company h6{
+    text-decoration: underline;
+}
+.cond p{
+    line-height: 10px;
+}
+.company p{
+    line-height: 10px;
+}
+.cond p a{
+    text-decoration: none;
+    color: #183C6B;
+}
+.company p a{
+    text-decoration: none;
+    color: #183C6B;
+}
+.company p a:hover{
+    color:  #F2C063;
+}
+.cond p a:hover{
+    color:  #F2C063;
+}
+.cond h6{
+    line-height: 40px;
+}
+.company h6{
+    line-height: 40px;
+}
+.latest h6{
+    text-decoration: underline;
+}
+.latest input{
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    background: rgba(12, 10, 62, 0.39);
+    width: 180px;
+    height: 40px;
+    outline: black;
+    color: white;
+}
+.icn{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.value{
+    margin-top: 20px;
+    color: #0C0A3E;
+}
+hr{
+    background: white;
+}
+.latest button{
+    position: absolute;
+    left: 195px;
+    top: 27px;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color:   #f26938;
+    font-size: 12px;
+    color: white;
+}
+.pic img{
+    border-radius: 10px;
+}
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+.core{
+    color: #183C6B;
+    margin-top: 50px;
+}
+.how .col-8{
+    color: #183C6B;
+}
+.pic{
+    color: #183C6B;
+}
+.founder{
+    margin-top: 70px;
+}
+.founder .img-box img{
+    border-radius: 10px;
+}
+.text .col-12{
+    font-size: 12px;
+}
+.blwlogo{
+    padding-top: 30px;
+}
+.blwlogo .col-3 img:hover{
+    width: 30px;
+    height: 30px;
+    transition: ease-in-out .3s;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+p, h1, h2, h3, h4, h5, h6{
+    font-family: "Maven Pro", sans-serif;
+    line-height: 1.8;
+}
+p{
+    font-size: 13pt;
+}
+.top{
+    font-family: ;
+    height: 400px;
+    background-image: url('Resources/Home-1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.links{
+    margin-top: 30px;
+}
+.search-box{
+    margin-left: 70px;
+    background: rgba(0, 190, 228, 0.733);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 300px;
+    padding: 0 6px;
+    
+}
+.search-btn{
+    color: #0C0A3E;
+    float: right;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+.pages a{
+    color: #00BEE4;
+    padding-left: 70px;
+}
+.lg{
+    color:  white;
+    font-size: 45px;
+}
+.sm{
+    color: white;
+    font-size: 15px;
+}
+.main button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color:   #f26938;
+    font-size: 12px;
+    color: white;
+}
+.wwa{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    color: #183C6B;
+}
+.head{
+    margin-top: 40px;
+}
+.head h2{
+    color:  #183C6B;
+    background: 
+    #0C0A3E
+}
+.value .v1, .value .v1 h5{
+    padding-top: 20px;
+    align-items: center;
+}
+.value .v1:hover{
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+    transition: ease-in-out .5s;
+}
+footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+    background-attachment: fixed;
+    background-image: url("Resources/Base-3.png");
+}
+.blwlogo{
+    padding-top: 50px;
+}
+.blwlogo .col-3 img:hover{
+    width: 30px;
+    height: 30px;
+    transition: ease-in-out .3s;
+}
+.cond h6{
+    text-decoration: underline;
+}
+.company h6{
+    text-decoration: underline;
+}
+.cond p{
+    line-height: 10px;
+}
+.company p{
+    line-height: 10px;
+}
+.cond p a{
+    text-decoration: none;
+    color: #183C6B;
+}
+.company p a{
+    text-decoration: none;
+    color: #183C6B;
+}
+.company p a:hover{
+    color:  #F2C063;
+}
+.cond p a:hover{
+    color:  #F2C063;
+}
+.cond h6{
+    line-height: 40px;
+}
+.company h6{
+    line-height: 40px;
+}
+.latest h6{
+    text-decoration: underline;
+}
+.latest input{
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    background: rgba(12, 10, 62, 0.39);
+    width: 180px;
+    height: 40px;
+    outline: black;
+    color: white;
+}
+.icn{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.value{
+    margin-top: 40px;
+    color: #183C6B;
+}
+hr{
+    background: white;
+}
+.latest button{
+    position: absolute;
+    left: 195px;
+    top: 27px;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color:   #f26938;
+    font-size: 12px;
+    color: white;
+}
+.text .col-4{
+    padding-top: 20px;
+}
+.text .col-4 p{
+    font-size: 12px;
+}
